@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("assets/Norse-Bold.otf") format("opentype");
+}
+
 :root {
     line-height: 1.5;
+    font-family: "Norse Bold";
 }
 
 h1, h2, h3, h4, h5, figure, p, ol, ul {
