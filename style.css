@@ -86,46 +86,82 @@ img {
     text-decoration: none;
 }
 
-.description {
-    padding: 0 40px;
+.container {
+    width: 100%;
+}
+
+.copy {
+    max-width: 52ch;
+    padding: 0 0 0 40px;
     margin-bottom: 60px;
     font-weight: bold;
 }
 
-.description p:first-child {
+.copy p:first-child {
     margin-bottom: 20px;
 }
 
-fieldset {
-    padding: 20px 40px;
+.responses {
     background-color: #fff;
-    border: none;
+    padding: 20px 0 40px 40px;
+    -webkit-box-shadow: 0px 5px 5px 0px #cbcbcb;
+    -moz-box-shadow: 0px 5px 5px 0px #cbcbcb;
+    box-shadow: 0px 5px 5px 0px #cbcbcb;
 }
 
-fieldset > p {
-    margin-bottom: 20px;
+.responses p {
+    font-size: 1.333rem;
 }
 
-.form-inputs {
+.input-row {
     display: flex;
     gap: 60px;
+    margin-top: 20px;
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
 }
 
-form > div {
-    padding: 0 40px;
+input {
+    padding: 5px;
+    width: 300px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
 }
 
-form button {
-    margin: 20px 0;
+label {
+    font-size: 0.75rem;
+}
+
+button {
+    margin: 40px 0 20px 40px;
     padding: 10px 30px;
     color: #fff;
     background-color: #5d6c4c;
     border: none;
     border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 5px 0px #cbcbcb;
+    -moz-box-shadow: 0px 5px 5px 0px #cbcbcb;
+    box-shadow: 0px 5px 5px 0px #cbcbcb;
+}
+
+button:hover {
+    background-color: #869a6f;
+    cursor: pointer;
+}
+
+.login {
+    margin-left: 40px;
+}
+
+.login a {
+    color: #5d6c4c;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: #869a6f;
+    text-decoration: underline;
 }
