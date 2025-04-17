@@ -4,8 +4,16 @@
 }
 
 :root {
+    font-size: 16px;
     line-height: 1.5;
-    font-family: "Norse Bold";
+    background-color: #f9fafb;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, figure, p, ol, ul {
@@ -25,4 +33,99 @@ h1, h2, h3, h4, h5 {
 img {
     display: block;
     max-inline-size: 100%;
+}
+
+.cover {
+    height: 100%;
+    width: 600px;
+    padding: 10px 0;
+    background-image: url(./assets/Green\ Leaf\ Plant\ Photo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.cover-label {
+    margin-top: 195px;
+    padding: 10px 0;
+    background-color: #00000088;
+}
+
+.lockup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lockup h1 {
+    font-size: 5.61rem;
+    line-height: 5.61rem;
+    font-family: "Norse Bold";
+}
+
+.lockup img {
+    height: 6rem;
+}
+
+.cover-footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    opacity: .75;
+}
+
+.cover-footer a {
+    color: inherit;
+}
+
+.cover-footer a:hover {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+.description {
+    padding: 0 40px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.description p:first-child {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    padding: 20px 40px;
+    background-color: #fff;
+    border: none;
+}
+
+fieldset > p {
+    margin-bottom: 20px;
+}
+
+.form-inputs {
+    display: flex;
+    gap: 60px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form > div {
+    padding: 0 40px;
+}
+
+form button {
+    margin: 20px 0;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #5d6c4c;
+    border: none;
+    border-radius: 5px;
 }
