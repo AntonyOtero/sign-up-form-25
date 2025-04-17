@@ -104,9 +104,9 @@ img {
 .responses {
     background-color: #fff;
     padding: 20px 0 40px 40px;
-    -webkit-box-shadow: 0px 5px 5px 0px #cbcbcb;
-    -moz-box-shadow: 0px 5px 5px 0px #cbcbcb;
-    box-shadow: 0px 5px 5px 0px #cbcbcb;
+    -webkit-box-shadow: 0px 5px 5px 0px #E5E7EB;
+    -moz-box-shadow: 0px 5px 5px 0px #E5E7EB;
+    box-shadow: 0px 5px 5px 0px #E5E7EB;
 }
 
 .responses p {
@@ -127,9 +127,21 @@ img {
 input {
     padding: 5px;
     width: 300px;
-    border: 1px solid #e3e3e3;
+    border: 1px solid #E5E7EB;
     border-radius: 5px;
 }
+
+input:focus {
+    border-color: blue;
+    -webkit-box-shadow: 2.5px 2.5px 5px 0px #E5E7EB;
+    -moz-box-shadow: 2.5px 2.5px 5px 0px #E5E7EB;
+    box-shadow: 2.5px 2.5px 5px 0px #E5E7EB;
+}
+
+input[type="password"]:invalid {
+    border-color: red;
+}
+
 
 label {
     font-size: 0.75rem;
@@ -139,12 +151,12 @@ button {
     margin: 40px 0 20px 40px;
     padding: 10px 30px;
     color: #fff;
-    background-color: #5d6c4c;
+    background-color: #596D48;
     border: none;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 5px 5px 0px #cbcbcb;
-    -moz-box-shadow: 0px 5px 5px 0px #cbcbcb;
-    box-shadow: 0px 5px 5px 0px #cbcbcb;
+    -webkit-box-shadow: 0px 5px 5px 0px #E5E7EB;
+    -moz-box-shadow: 0px 5px 5px 0px #E5E7EB;
+    box-shadow: 0px 5px 5px 0px #E5E7EB;
 }
 
 button:hover {
@@ -157,7 +169,7 @@ button:hover {
 }
 
 .login a {
-    color: #5d6c4c;
+    color: #596D48;
     text-decoration: none;
 }
 
